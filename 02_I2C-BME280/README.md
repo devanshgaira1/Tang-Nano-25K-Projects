@@ -15,7 +15,7 @@ The current Verilog implementation successfully performs the following:
 
 ## Logic Analysis
 Using the Saleae Logic software, we have verified that the sensor is responding correctly to its address.
-![I2C Waveform](./I2C.jpeg)
+![I2C Waveform](./I2C .jpeg)
 *Waveform captured at 100kHz showing the address frame and the ACK bit from the BME280.*
 
 ## Pin Mapping (GW5A-25)
