@@ -1,2 +1,2 @@
 # Tang-Nano-25K-Projects
-just learning
+ learning example projects 1 by 1
