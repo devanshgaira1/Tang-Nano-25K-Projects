@@ -1,8 +1,8 @@
-# 02 I2C BME280 - Chip Identification Phase
+# 02 I2C BME280 - Chip Identification 
 
 This project implements a bit-banged I2C Master on the Tang Nano 25K to communicate with a BME280 environmental sensor.
 
-## Current Progress: Address Handshake
+## Address Handshake
 The current Verilog implementation successfully performs the following:
 1. **START Condition**: SDA pulled low while SCL is high.
 2. **Device Addressing**: Sends `0x76` (7-bit address) + `0` (Write bit).
@@ -25,7 +25,4 @@ Using the Saleae Logic software, we have verified that the sensor is responding 
 | SCL    | D11 | LVCMOS33|
 | SDA    | G11 | LVCMOS33|
 
-## Next Steps
-- [ ] Implement **Register Selection** to point to `0xD0` (Chip ID).
-- [ ] Implement **Repeated Start** (Sr) condition.
-- [ ] Read the 8-bit ID back from the sensor (Expected: `0x60`).
+
